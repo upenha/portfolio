@@ -1,8 +1,7 @@
 import React from 'react'
-import { Container, Title, Button, Links, Social } from './styles'
+import { Container, Title, Links, Social } from './styles'
 
 export default function Home() {
-
 
   async function handleDiscord() {    
     await navigator.clipboard.writeText('Upenha#5999');

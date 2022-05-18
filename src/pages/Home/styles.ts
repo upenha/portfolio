@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import colors from '../../styles/colors';
 
 export const Container = styled.div`
   width: 100vw;
@@ -13,21 +14,18 @@ export const Title = styled.h1`
   color: white;
   font-size: 72px;
   font-weight: bold;
-
+ 
   b {
     font-weight: 900;
-    color: #dd3131;
-    /* text-shadow:
-    0 0 2px #dd3131,
-    0 2.5px 0px #a61b1b,
-    0 0 5px #dd3131; */
+    color: ${colors.red};
+    transition: .25s ease-in-out;
   }
 `;
 
 export const Button = styled.button`
   font-weight: bold;
   color: white;
-  background-color: #dd3131;
+  background-color: ${colors.red};
   margin-top: 1rem;
   padding: 1.25rem;
   border: 0;
