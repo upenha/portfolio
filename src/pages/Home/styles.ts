@@ -14,6 +14,10 @@ export const Title = styled.h1`
   color: white;
   font-size: 72px;
   font-weight: bold;
+  text-align: center;
+  @media (max-width: 550px) {
+    font-size: 30px;
+  }
  
   b {
     font-weight: 900;

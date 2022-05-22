@@ -11,6 +11,11 @@ const GlobalStyle = createGlobalStyle`
     background-position: bottom;
     width: 100vw;
     height: 100vh;
+    @media (max-width: 535px)  {
+      background-image: url('/svg/waves-mobile.svg');
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
     @keyframes transition {
       0% {
         background-color: #171717;
