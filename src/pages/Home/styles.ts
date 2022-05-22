@@ -17,7 +17,7 @@ export const Title = styled.h1`
  
   b {
     font-weight: 900;
-    color: ${colors.red};
+    color: ${colors.purple200};
     transition: .25s ease-in-out;
   }
 `;
@@ -25,7 +25,7 @@ export const Title = styled.h1`
 export const Button = styled.button`
   font-weight: bold;
   color: white;
-  background-color: ${colors.red};
+  background-color: ${colors.purple100};
   margin-top: 1rem;
   padding: 1.25rem;
   border: 0;
@@ -47,4 +47,9 @@ export const Social = styled.a`
   font-size: 16px;
   margin: 10px;
   text-decoration: underline;
+  cursor: pointer;
+  :hover {
+    color: ${colors.purple100};
+    transition: 0.5;
+  }
 `

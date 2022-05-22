@@ -25,6 +25,10 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lexend', sans-serif;
+    ::selection {
+      background: #AD94E9;
+      color: #f4f4f4;
+    }
   }
 `;
  
